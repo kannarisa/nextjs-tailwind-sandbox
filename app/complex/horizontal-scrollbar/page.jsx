@@ -1,6 +1,6 @@
 "use client";
 
-import HorizontalScrollbar from "@/app/components/layout/horizontal-scrollbar/HorizontalScrollbar";
+import HorizontalScrollbar from "@/components/layout/horizontal-scrollbar/HorizontalScrollbar";
 import React from "react";
 
 const categories = [
@@ -66,8 +66,8 @@ const HorizontalScrollbarPage = () => {
       <br />
       <h1 className="text-blue-800 text-2xl">Instagram categories</h1>
       <HorizontalScrollbar>
-        {users.map((item) => (
-          <div className="shrink-0">
+        {users.map((item, index) => (
+          <div key={index} className="shrink-0">
             <img
               src={item.image}
               alt={item.username}
