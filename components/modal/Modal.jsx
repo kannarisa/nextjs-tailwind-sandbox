@@ -26,7 +26,7 @@ const Modal = ({ isOpen, title = "My Modal", onDismiss, children }) => {
     >
       <div
         className="min-w-[400px] max-w-full overflow-x-hidden min-h-[200px] bg-sky-200 rounded-xl p-2 flex flex-col relative"
-        onClick={(event) => event.stopPropagation}
+        onClick={(event) => event.stopPropagation()}
       >
         <AiOutlineClose
           className="absolute right-4 top-3 text-2xl text-red-600 cursor-pointer"
