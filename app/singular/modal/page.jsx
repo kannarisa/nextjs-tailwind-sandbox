@@ -2,6 +2,7 @@ import React from "react";
 import SimpleHelloWorldModal from "./components/SimpleHelloWorldModal";
 import ShowImageModal from "./components/ShowimageModal";
 import VideoPlayerModal from "./components/VideoPlayerModal";
+import ConfirmationModal from "./components/ConfirmationModal";
 
 const ModalPage = () => {
   return (
@@ -11,7 +12,8 @@ const ModalPage = () => {
       <br />
       {/* <SimpleHelloWorldModal /> */}
       {/* <ShowImageModal /> */}
-      <VideoPlayerModal />
+      {/* <VideoPlayerModal /> */}
+      {/* <ConfirmationModal /> */}
     </div>
   );
 };
