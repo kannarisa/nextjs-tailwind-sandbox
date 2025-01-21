@@ -3,6 +3,7 @@ import SimpleHelloWorldModal from "./components/SimpleHelloWorldModal";
 import ShowImageModal from "./components/ShowimageModal";
 import VideoPlayerModal from "./components/VideoPlayerModal";
 import ConfirmationModal from "./components/ConfirmationModal";
+import InputFormModal from "./components/InputFormModal";
 
 const ModalPage = () => {
   return (
@@ -14,6 +15,7 @@ const ModalPage = () => {
       {/* <ShowImageModal /> */}
       {/* <VideoPlayerModal /> */}
       {/* <ConfirmationModal /> */}
+      {/* <InputFormModal/> */}
     </div>
   );
 };
