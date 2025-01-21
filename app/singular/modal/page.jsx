@@ -1,6 +1,7 @@
 import React from "react";
 import SimpleHelloWorldModal from "./components/SimpleHelloWorldModal";
 import ShowImageModal from "./components/ShowimageModal";
+import VideoPlayerModal from "./components/VideoPlayerModal";
 
 const ModalPage = () => {
   return (
@@ -10,6 +11,7 @@ const ModalPage = () => {
       <br />
       {/* <SimpleHelloWorldModal /> */}
       {/* <ShowImageModal /> */}
+      <VideoPlayerModal />
     </div>
   );
 };
