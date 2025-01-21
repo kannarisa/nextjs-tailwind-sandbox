@@ -58,7 +58,6 @@ const MainSidebar = () => {
                 Modal
               </Link>
             </li>
-
           </ul>
         </li>
 

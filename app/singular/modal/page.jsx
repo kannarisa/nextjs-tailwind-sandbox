@@ -1,5 +1,6 @@
 import React from "react";
 import SimpleHelloWorldModal from "./components/SimpleHelloWorldModal";
+import ShowImageModal from "./components/ShowimageModal";
 
 const ModalPage = () => {
   return (
@@ -7,7 +8,8 @@ const ModalPage = () => {
       <h1>This is Modal Page</h1>
       <br />
       <br />
-      <SimpleHelloWorldModal />
+      {/* <SimpleHelloWorldModal /> */}
+      {/* <ShowImageModal /> */}
     </div>
   );
 };
